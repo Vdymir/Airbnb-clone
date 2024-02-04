@@ -12,6 +12,115 @@
 			<key>type</key>
 			<string>group</string>
 		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>31</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>30</string>
+					<key>Timestamp</key>
+					<string>728777343.85526</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Airbnb-clone/Extensions/DeveloperPreiew.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>            rating: "4.5",
+</string>
+				<key>leading</key>
+				<string>            state: "Bogotá",
+            title: "Cómodo apartamento en el centro",
+</string>
+				<key>trailing</key>
+				<string>            feature: [.selfCheckIn, .superHost],
+            amenities: [.wifi, .kitchen, .tv, .laundry],
+            type: .apartment
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>31</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>30</string>
+					<key>Timestamp</key>
+					<string>728777343.855281</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Airbnb-clone/Extensions/DeveloperPreiew.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>            rating: "4.5",
+</string>
+				<key>leading</key>
+				<string>            state: "Bogotá",
+            title: "Cómodo apartamento en el centro",
+</string>
+				<key>trailing</key>
+				<string>            feature: [.selfCheckIn, .superHost],
+            amenities: [.wifi, .kitchen, .tv, .laundry],
+            type: .apartment
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Airbnb-clone/Extensions/DeveloperPreiew.swift</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
 	</array>
 </dict>
 </plist>

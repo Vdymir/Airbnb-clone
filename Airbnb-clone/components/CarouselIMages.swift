@@ -8,12 +8,7 @@
 import SwiftUI
 
 struct CarouselIMages: View {
-    var images = [
-    "room-1",
-    "room-2",
-    "room-3",
-    "room-4",
-    ]
+    let images: [String]
     var body: some View {
         TabView {
             ForEach(images, id: \.self) { image in
@@ -27,5 +22,5 @@ struct CarouselIMages: View {
 }
 
 #Preview {
-    CarouselIMages()
+    CarouselIMages(images: ["room-1", "room-2"])
 }

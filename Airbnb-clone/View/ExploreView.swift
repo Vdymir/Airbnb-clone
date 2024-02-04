@@ -9,12 +9,13 @@ import SwiftUI
 
 struct ExploreView: View {
     
-    @State private var showDestinationView = false
+    @State private var showDestinationView: Bool = false
+    @StateObject var viewModel = ExploreViewModel(service: ExploreService())
     
     var body: some View {
         NavigationStack {
             if showDestinationView {
-                DestinationSearchView()
+                DestinationSearchView(show: $showDestinationView)
             } else {
                 Search()
                     .onTapGesture {
@@ -25,17 +26,17 @@ struct ExploreView: View {
                 
                 ScrollView {
                     LazyVStack(spacing: 16) {
-                        ForEach(0...10, id: \.self) { listing in
+                        ForEach(viewModel.listing, id: \.id) { listing in
                             NavigationLink(value: listing) {
-                                ListingItemView()
+                                ListingItemView(listing: listing)
                                     .frame(height: 400)
                                     .clipShape(RoundedRectangle(cornerRadius: 10))
                             }
                         }
                     }
                 }
-                .navigationDestination(for: Int.self) { listing in
-                    ListingDetailsView()
+                .navigationDestination(for: ListingModal.self) { listing in
+                    ListingDetailsView(listing: listing)
                         .navigationBarBackButtonHidden()
                 }
             }
